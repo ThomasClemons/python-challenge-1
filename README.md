@@ -81,7 +81,7 @@ Item # | Item name                | Price
 
 **Example Order Summary:**
 
-<pre> Thank You for your order.
+<pre>Thank You for your order.
 This is what we are preparing for you.
 
 Item name                 | Price  | Quantity
@@ -93,7 +93,7 @@ Fried banana              | $4.49  | 3
 
 **Example Final Receipt:**
 
-<pre>Your Order is ready for pickup.
+<pre>Your order is ready for pickup.
 
 Variety Food Truck - Customer Order Receipt
 
