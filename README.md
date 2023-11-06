@@ -39,12 +39,13 @@ While loop until (N)o is entered:
 **Example for menu item 1, Snacks:**
 
 What Snacks item would you like to order?
-Item # | Item name                | Price
+<pre>Item # | Item name                | Price
 -------|--------------------------|-------
  1     | Cookie                   | $0.99
  2     | Banana                   | $0.69
  3     | Apple                    | $0.49
  4     | Granola bar              | $1.99
+</pre>
 
 4. Enter the number corresponding to the item you would like to order at the "Please enter the item number you would like to order:" prompt.
 
