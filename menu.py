@@ -260,6 +260,8 @@ if selection_count > 0:
     order_total_price = sum(order_item_total_prices)
    
     # Print Total Order Price
+    dashed_line = "-" * 60
+    print(f"{dashed_line}\n")
     item_spaces = " " * 34
     print(f"\n{item_spaces} Total Price   ${order_total_price:7.2f}")
     
