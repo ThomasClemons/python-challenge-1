@@ -136,7 +136,7 @@ while place_order:
                     menu_selection_price = menu_items[menu_selection_int]["Price"]
 
                     # Ask the customer for the quantity of the menu item
-                    menu_selection_quantity = input(f"Item selected '{menu_selection_name}', How many would you like to order? ")
+                    menu_selection_quantity = input(f"You selected '{menu_selection_name}', How many would you like to order? ")
 
                     # Check if the quantity is a number, default to 1 if not
                     if menu_selection_quantity.isdigit():
@@ -190,7 +190,7 @@ while place_order:
                 break
             case _:
                 # Tell the customer to try again
-                print("Invalid input, Please try again")
+                print("(Y)es or (N)o required, Please try again")
 
 if selection_count > 0:
     # Additional check to confirm that customer ordered one item or mores
