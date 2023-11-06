@@ -7,7 +7,7 @@ This is a class assignment to create an ordering system that allows customers to
 
 ## Description
 
-The class was given starter code that creates the menu, captures customer input, and prints menu.  Our assignment was to adapt this starter code into a complete program that that allows customers to place an order, store the customer's order, and print the receipt with the total price of all items ordered.
+The class was given starter code that creates the menu, captures customer input, and prints menu.  Our assignment was to adapt this starter code into a complete program that allows customers to place an order, store the customer's order, and print the receipt with the total price of all items ordered.
 
 ## Getting Started
 
@@ -21,10 +21,10 @@ The class was given starter code that creates the menu, captures customer input,
 
 ### Executing program
 
-- Run program '**menu.py**' from your cloned repo folder in using terminal
-- This program will loop until (N)o is entered.  Follow the prompts to select items from the menu.
+- Run program '**menu.py**' from your cloned repo folder using terminal
+- This program will loop until N(o) is entered.  Follow the prompts to select items from the menu.
 
-While loop until (N)o is entered:
+While loop until N(o) is entered:
 
 1. Menu categories are displayed on screen
 <pre>Welcome to the variety food truck.
@@ -64,20 +64,20 @@ Item # | Item name                | Price
 
 5. Enter the quantity of the item you would like to order at the "**You selected 'Menu Item', How many would you like to order?**" prompt.
 
-**Example entering quantity of 1 for menu item 1, Cookie:**
+**Example entering quantity of 1 for menu item, Cookie:**
 
 <pre>You selected 'Cookie', How many would you like to order? 1
 </pre>
 
-6. Enter 'Y(es)' to continue or 'N(o)' to stop ordering at the "**Would you like to keep ordering? (Y)es or (N)o** prompt
+6. Enter Y(es) to continue or N(o) to stop ordering at the "**Would you like to keep ordering? (Y)es or (N)o** prompt
 
 <pre>Would you like to keep ordering? (Y)es or (N)o
 </pre>
 
--  Enter 'Y(es)' to continue ordering items from the menu
--  Enter 'N(o)' to stop ordering
+-  Enter Y(es) to continue ordering items from the menu
+-  Enter N(o) to stop ordering
 
-7. When 'N(o)' is entered, if the customer order something, an Order Summary and Order Receipt will be displayed on the terminal.  If the the customer did not order anything, a message is printed.  This is the end of the program.
+7. When N(o) is entered, if the customer placed an order, an Order Summary and Order Receipt will be displayed on the terminal.  If the the customer did not place an order, a message is printed.  This is the end of the program.
 
 **Example Order Summary:**
 
@@ -111,7 +111,7 @@ Fried banana              | $ 4.49  |     10   | $  13.47
 Thank You from Variety Food Truck.  Have an Awesome Day!
 </pre>
 
-**Message when nothing is ordered:**
+**Message when customer did not place an order:**
 
 <pre>Sorry we could not serve you today.  Please consider visiting us again.
 </pre>
@@ -119,8 +119,8 @@ Thank You from Variety Food Truck.  Have an Awesome Day!
 
 ## Help
 
-- Error messages will be displayed for any invalid entries
-- **Note:**  Quantity is defined as an integer, so you can enter very large quantities.  The program will work if a large quantity is entered, but the receipt format will be impacted if a quantity of 1000 or larger is entered.
+- Error messages are displayed for invalid entries
+- **Note:**  Quantity is defined as an integer, so you can enter large quantities.  If a large quantity is entered, the program will work, but the receipt format will be impacted if a quantity of 1000 or larger is entered.
 
 ## Authors
 
