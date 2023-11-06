@@ -21,29 +21,31 @@ The class was given starter code that creates the menu, captures customer input,
 
 ### Executing program
 
-- Run program 'menu.py' from your cloned folder in using terminal
-- The program will loop until (N)o is entered.  Follow the prompts to select items from the menu.
+- Run program '**menu.py**' from your cloned repo folder in using terminal
+- This program will loop until (N)o is entered.  Follow the prompts to select items from the menu.
 
-- While loop until (N)o is entered:
-1. From which menu would you like to order?
+While loop until (N)o is entered:
+
+1. **From which menu would you like to order?**
   - 1: Snacks
   - 2: Meals
   - 3: Drinks
   - 4: Dessert
-2. Enter a number from one of the items on the menu at the "Type menu number: " prompt
-3. After your entry, a submenu for the menu item will be displayed:
-*
-*jafkljdlf;jaf;l
-* Example for menu item 1, Snacks:
-*
-* What Snacks item would you like to order?
-* Item # | Item name                | Price
-* -------|--------------------------|-------
-* 1      | Cookie                   | $0.99
-* 2      | Banana                   | $0.69
-* 3      | Apple                    | $0.49
-* 4      | Granola bar              | $1.99
-*
+
+2. Enter a number for one of the items on the menu at the "**Type menu number:**" prompt
+
+3. After your entry, a submenu for the selected menu item will be displayed:
+
+**Example for menu item 1, Snacks:**
+
+What Snacks item would you like to order?
+Item # | Item name                | Price
+-------|--------------------------|-------
+ 1     | Cookie                   | $0.99
+ 2     | Banana                   | $0.69
+ 3     | Apple                    | $0.49
+ 4     | Granola bar              | $1.99
+
 4. Enter the number corresponding to the item you would like to order at the "Please enter the item number you would like to order:" prompt.
 
 5. Enter the quantity of the item you would like to order at the "You selected 'Menu Item', How many would you like to order?" prompt.
