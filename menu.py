@@ -92,7 +92,7 @@ while place_order:
             # Save the menu category name to a variable
             menu_category_name = menu_items[int(menu_category)]
             # Print out the menu category name they selected
-            print(f"You selected {menu_category_name}")
+            print(f"You selected '{menu_category_name}'\n")
 
             # Print out the menu options from the menu_category_name
             print(f"What {menu_category_name} item would you like to order?")
@@ -152,15 +152,15 @@ while place_order:
                                                     }
                 else:
                     # Tell the customer that their input isn't valid
-                    print(f"{menu_selection} is not a menu option.")
+                    print(f"'{menu_selection}' is not a menu option.")
             else:
                 # Tell the customer they didn't select a menu option
-                print(f"{menu_selection} is not a menu option.")
+                print(f"'{menu_selection}' is not a menu option.")
 
 
         else:
             # Tell the customer they didn't select a menu option
-            print(f"{menu_category} is not a menu option.")
+            print(f"'{menu_category}' is not a menu option.")
     else:
         # Tell the customer they didn't select a number
         print("You didn't select a number, Please try again.")
@@ -190,7 +190,7 @@ while place_order:
                 break
             case _:
                 # Tell the customer to try again
-                print("(Y)es or (N)o required, Please try again")
+                print("(Y)es or (N)o required, Please try again\n")
 
 if selection_count > 0:
     # Additional check to confirm that customer ordered one item or mores
@@ -224,7 +224,6 @@ if selection_count > 0:
         item_spaces = " " * num_item_spaces
 
         # 10. Print the item name, price, and quantity
-        #print("{:25} | ${:5.2f} | {:2}".format(customer_order[key]["Item name"], customer_order[key]["Price"], customer_order[key]["Quantity"]))
         print(f"{customer_order[key]['Item name']}{item_spaces} | ${customer_order[key]['Price']:5.2f} | {customer_order[key]['Quantity']:2}")
 
     # 11. Calculate the cost of the order using list comprehension
