@@ -27,7 +27,8 @@ The class was given starter code that creates the menu, captures customer input,
 While loop until (N)o is entered:
 
 1. Menu categories are displayed on screen
-<pre>From which menu would you like to order?
+<pre>Welcome to the variety food truck.
+From which menu would you like to order?
 1: Snacks
 2: Meals
 3: Drinks
@@ -76,11 +77,13 @@ Item # | Item name                | Price
 -  Enter 'Y(es)' to continue ordering items from the menu
 -  Enter 'N(o)' to stop ordering
 
-7. When 'N(o)' is entered, an Order Summary and Order Receipt will be displayed on the terminal and the program ends.
+7. When 'N(o)' is entered, if the customer order something, an Order Summary and Order Receipt will be displayed on the terminal.  If the the customer did not order anything, a message is printed.  This is the end of the program.
 
-**Order Summary Example:**
+**Example Order Summary:**
 
-<pre> 
+<pre> Thank You for your order.
+This is what we are preparing for you.
+
 Item name                 | Price  | Quantity
 --------------------------|--------|----------
 Cookie                    | $0.99  | 1
@@ -88,7 +91,7 @@ Tea - Thai iced           | $3.99  | 2
 Fried banana              | $4.49  | 3
 </pre>
 
-**Final Receipt Example:**
+**Example Final Receipt:**
 
 <pre>Your Order is ready for pickup.
 
@@ -108,6 +111,12 @@ Fried banana              | $ 4.49  |     10   | $  13.47
 Thank You from Variety Food Truck.  Have an Awesome Day!
 </pre>
 
+**Message when nothing is ordered:**
+
+<pre>Sorry we could not serve you today.  Please consider visiting us again.
+</pre>
+
+
 ## Help
 
 - Error messages will be displayed for any invalid entries
@@ -125,4 +134,4 @@ Thank You from Variety Food Truck.  Have an Awesome Day!
 ## Acknowledgments
 
 - Inspiration, code snippets, etc.
-  - [DomPizzie-Readme](https://gist.github.com/DomPizzie/7a5ff55ffa9081f2de27c315f5018afc)
+  - [DomPizzie-Readme](https://gist.github.com/DomPizzie/7a5ff55ffa9081f2de27c315f5018afc "DonPIzzie-Readme")
