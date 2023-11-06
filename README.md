@@ -134,4 +134,4 @@ Thank You from Variety Food Truck.  Have an Awesome Day!
 ## Acknowledgments
 
 - Inspiration, code snippets, etc.
-  - [DomPizzie-Readme](https://gist.github.com/DomPizzie/7a5ff55ffa9081f2de27c315f5018afc "DonPIzzie-Readme")
+  - [DomPizzie-Readme](https://gist.github.com/DomPizzie/7a5ff55ffa9081f2de27c315f5018afc "DonPIzzie-Readme") - README template suggestions
