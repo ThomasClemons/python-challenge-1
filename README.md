@@ -26,15 +26,15 @@ The class was given starter code that creates the menu, captures customer input,
 
 While loop until (N)o is entered:
 
-1. Menu Categories are displayed
-<pre>From which menu would you like to order?**
-  1: Snacks
-  2: Meals
-  3: Drinks
-  4: Dessert
+1. Menu categories are displayed on screen
+<pre>From which menu would you like to order?
+1: Snacks
+2: Meals
+3: Drinks
+4: Dessert
 </pre>
 
-2. Enter a number for one of the items on the menu at the "**Type menu number:**" prompt
+2. Enter a number corresponding to the item you would like to order at the "**Type menu number:**" prompt
 <pre>Type menu number:
 </pre>
 
@@ -52,18 +52,24 @@ Item # | Item name                | Price
 </pre>
 
 4. Enter the number corresponding to the item you would like to order at the "**Please enter the item number you would like to order:**" prompt.
+<pre>Please enter the item number you would like to order:
+</pre>
 
 5. Enter the quantity of the item you would like to order at the "**You selected 'Menu Item', How many would you like to order?**" prompt.
+<pre>You selected 'Menu Item', How many would you like to order?
+</pre>
 
 **Example for menu item 1, Cookie:**
 <pre>You selected 'Cookie', How many would you like to order?
 </pre>
 
-6. Enter 'Y' or 'N' to continue or stop ordering at the "**Would you like to keep ordering? (Y)es or (N)o** prompt
--  Enter 'Y' to continue ordering items from the menu
--  Enter 'N' to stop ordering
+6. Enter 'Y(es)' or 'N(o)' to continue or stop ordering at the "**Would you like to keep ordering? (Y)es or (N)o** prompt
+-  Enter 'Y(es)' to continue ordering items from the menu
+-  Enter 'N(o)' to stop ordering
+<pre>Would you like to keep ordering? (Y)es or (N)o
+</pre>
 
-7. After 'N' is entered, an Order Summary and Order Receipt will be displayed to the terminal
+7. After 'N(o)' is entered, an Order Summary and Order Receipt will be displayed on the terminal and the program ends.
 
 **Order Summary Example:**
 <pre> 
@@ -97,7 +103,7 @@ Thank You from Variety Food Truck.  Have an Awesome Day!
 ## Help
 
 - Error messages will be displayed for any invalid entries
-- Note:  Quantity is defined as an integer, so you can enter very large quantities.  The program will work if a large quantity is entered, but the receipt format will be impacted if a quantity of 1000 or larger is entered.
+- **Note:**  Quantity is defined as an integer, so you can enter very large quantities.  The program will work if a large quantity is entered, but the receipt format will be impacted if a quantity of 1000 or larger is entered.
 
 ## Authors
 
