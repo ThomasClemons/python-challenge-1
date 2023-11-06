@@ -218,19 +218,20 @@ if selection_count > 0:
         order_item_quantities.append(customer_order[key]["Quantity"])
  
         # 8. Calculate the number of spaces for formatted printing
-        # Used formatted print (see #10)
+        num_item_spaces = 25 - len(customer_order[key]["Item name"])
 
         # 9. Create space strings
-        # Used formatted print (see #10)
+        item_spaces = " " * num_item_spaces
 
         # 10. Print the item name, price, and quantity
-        print("{:25} | ${:5.2f} | {:2}".format(customer_order[key]["Item name"], customer_order[key]["Price"], customer_order[key]["Quantity"]))
-        
+        #print("{:25} | ${:5.2f} | {:2}".format(customer_order[key]["Item name"], customer_order[key]["Price"], customer_order[key]["Quantity"]))
+        print(f"{customer_order[key]['Item name']}{item_spaces} | ${customer_order[key]['Price']:5.2f} | {customer_order[key]['Quantity']:2}")
+
     # 11. Calculate the cost of the order using list comprehension
     # Multiply the price by quantity for each item in the order list, then sum()
     # and print the prices.
     
-    # Uncomment to see Order Items, Order Prices, and Order Item Quantities List
+    # Uncomment to see Order Items, Order Prices, and Order Item Quantities Lists
     #print(f"Order Items List = {order_items}\n")
     #print(f"Order Prices List = {order_item_prices}\n")
     #print(f"Order Item Quantities List = {order_item_quantities}\n")
