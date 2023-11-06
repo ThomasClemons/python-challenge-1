@@ -13,26 +13,25 @@ The class was given starter code that creates the menu, captures customer input,
 
 ### Dependencies
 
-* Python 3.6 or higher
+- Python 3.6 or higher
 
 ### Installing
 
-* Clone this repo to your environment
+- Clone this repo to your environment
 
 ### Executing program
 
-* Run program 'menu.py' from your cloned folder in using terminal
-* Follow prompts to select items from the menu:
+- Run program 'menu.py' from your cloned folder in using terminal
+- The program will loop until (N)o is entered.  Follow the prompts to select items from the menu.
 
-* Loop until (N)o is entered:
-1. From which menu would you like to order?
-* 1: Snacks
-* 2: Meals
-* 3: Drinks
-* 4: Dessert
-*
-2. Enter a number from one of the items on the menu at the "Type menu number: " prompt
-3. After entry a submenu for the menu item will be displayed:
+- While loop until (N)o is entered:
+  1. From which menu would you like to order?
+  - 1: Snacks
+  - 2: Meals
+  - 3: Drinks
+  - 4: Dessert
+  2. Enter a number from one of the items on the menu at the "Type menu number: " prompt
+  3. After your entry, a submenu for the menu item will be displayed:
 *
 * Example for menu item 1, Snacks:
 *
