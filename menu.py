@@ -136,11 +136,11 @@ while place_order:
                     menu_selection_price = menu_items[menu_selection_int]["Price"]
 
                     # Ask the customer for the quantity of the menu item
-                    menu_selection_quantity = input(f"You selected '{menu_selection_name}', How many would you like to order? ")
+                    quantity = input(f"You selected '{menu_selection_name}', How many would you like to order? ")
 
                     # Check if the quantity is a number, default to 1 if not
-                    if menu_selection_quantity.isdigit():
-                        menu_selection_quantity_int = int(menu_selection_quantity)
+                    if quantity.isdigit():
+                        menu_selection_quantity_int = int(quantity)
                     else:
                         menu_selection_quantity_int = 1
 
