@@ -247,7 +247,7 @@ if selection_count > 0:
     # print(f"Order Item Total Prices List = {order_item_total_prices}\n")
 
     # Print Final Receipt with Total Price
-    print("\n\nYour Order is ready for pickup.\n")
+    print("\n\nYour order is ready for pickup.\n")
     print("Variety Food Truck - Customer Order Receipt\n")
     print("Item name                 | Price   | Quantity | Item Total ")
     print("--------------------------|---------|----------|------------")
