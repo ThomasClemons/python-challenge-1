@@ -35,12 +35,15 @@ While loop until (N)o is entered:
 </pre>
 
 2. Enter a number corresponding to the item you would like to order at the "**Type menu number:**" prompt
-<pre>Type menu number:
+
+**Example selecting menu item 1, Snacks:**
+
+<pre>Type menu number: 1
 </pre>
 
 3. After your entry, a submenu for the selected menu item will be displayed:
 
-**Example for menu item 1, Snacks:**
+**Example submenu for item 1, Snacks:**
 
 <pre>What Snacks item would you like to order?
 Item # | Item name                | Price
@@ -52,26 +55,31 @@ Item # | Item name                | Price
 </pre>
 
 4. Enter the number corresponding to the item you would like to order at the "**Please enter the item number you would like to order:**" prompt.
-<pre>Please enter the item number you would like to order:
+
+**Example selecting menu item 1, Cookie:**
+
+<pre>Please enter the item number you would like to order: 1
 </pre>
 
 5. Enter the quantity of the item you would like to order at the "**You selected 'Menu Item', How many would you like to order?**" prompt.
-<pre>You selected 'Menu Item', How many would you like to order?
+
+**Example entering quantity of 1 for menu item 1, Cookie:**
+
+<pre>You selected 'Cookie', How many would you like to order? 1
 </pre>
 
-**Example for menu item 1, Cookie:**
-<pre>You selected 'Cookie', How many would you like to order?
-</pre>
+6. Enter 'Y(es)' to continue or 'N(o)' to stop ordering at the "**Would you like to keep ordering? (Y)es or (N)o** prompt
 
-6. Enter 'Y(es)' or 'N(o)' to continue or stop ordering at the "**Would you like to keep ordering? (Y)es or (N)o** prompt
--  Enter 'Y(es)' to continue ordering items from the menu
--  Enter 'N(o)' to stop ordering
 <pre>Would you like to keep ordering? (Y)es or (N)o
 </pre>
 
-7. After 'N(o)' is entered, an Order Summary and Order Receipt will be displayed on the terminal and the program ends.
+-  Enter 'Y(es)' to continue ordering items from the menu
+-  Enter 'N(o)' to stop ordering
+
+7. When 'N(o)' is entered, an Order Summary and Order Receipt will be displayed on the terminal and the program ends.
 
 **Order Summary Example:**
+
 <pre> 
 Item name                 | Price  | Quantity
 --------------------------|--------|----------
