@@ -25,14 +25,15 @@ The class was given starter code that creates the menu, captures customer input,
 - The program will loop until (N)o is entered.  Follow the prompts to select items from the menu.
 
 - While loop until (N)o is entered:
-  1. From which menu would you like to order?
+1. From which menu would you like to order?
   - 1: Snacks
   - 2: Meals
   - 3: Drinks
   - 4: Dessert
-  2. Enter a number from one of the items on the menu at the "Type menu number: " prompt
-  3. After your entry, a submenu for the menu item will be displayed:
+2. Enter a number from one of the items on the menu at the "Type menu number: " prompt
+3. After your entry, a submenu for the menu item will be displayed:
 *
+*jafkljdlf;jaf;l
 * Example for menu item 1, Snacks:
 *
 * What Snacks item would you like to order?
