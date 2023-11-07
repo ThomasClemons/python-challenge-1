@@ -13,7 +13,7 @@ The class was given starter code that creates the menu, captures customer input,
 
 ### Dependencies
 
-- Python 3.6 or higher
+- Python 3.10
 
 ### Installing
 
