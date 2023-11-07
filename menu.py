@@ -193,7 +193,7 @@ while place_order:
                 print("(Y)es or (N)o required, Please try again\n")
 
 if selection_count > 0:
-    # Additional check to confirm that customer ordered one item or mores
+    # Additional check to confirm that customer ordered one item or more
     # Print out the customer's order
     print("This is what we are preparing for you.\n")
 
